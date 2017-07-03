@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import Invitation from './components/Invitation';
-import ThemedParty from './components/ThemedDecorations';
+import Invitation from './components/Invitation'
+import ThemedParty from './components/ThemedDecorations'
 
 ReactDOM.render(
   <div>
@@ -13,5 +13,5 @@ ReactDOM.render(
       <p>A last decoration</p>
     </ThemedParty>
   </div>,
-  document.getElementById('main')
-);
+  document.getElementById('root')
+)
